@@ -2,7 +2,7 @@ package com.oauth.social.oauthsocial.security;
 
 
 import com.oauth.social.oauthsocial.exception.ResourceNotFoundException;
-import com.oauth.social.oauthsocial.entity.User;
+import com.oauth.social.oauthsocial.model.User;
 import com.oauth.social.oauthsocial.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -4,7 +4,6 @@ import com.oauth.social.oauthsocial.config.AppProperties;
 import com.oauth.social.oauthsocial.exception.BadRequestException;
 import com.oauth.social.oauthsocial.security.TokenProvider;
 import com.oauth.social.oauthsocial.util.CookieUtils;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;

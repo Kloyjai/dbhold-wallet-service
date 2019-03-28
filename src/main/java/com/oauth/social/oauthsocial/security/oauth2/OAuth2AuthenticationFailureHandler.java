@@ -1,12 +1,11 @@
 package com.oauth.social.oauthsocial.security.oauth2;
 
+import com.oauth.social.oauthsocial.util.CookieUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
 import org.springframework.stereotype.Component;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import com.oauth.social.oauthsocial.util.CookieUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;

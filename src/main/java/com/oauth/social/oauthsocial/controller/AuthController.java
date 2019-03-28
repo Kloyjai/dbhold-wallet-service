@@ -2,7 +2,7 @@ package com.oauth.social.oauthsocial.controller;
 
 import com.oauth.social.oauthsocial.exception.BadRequestException;
 import com.oauth.social.oauthsocial.model.AuthProvider;
-import com.oauth.social.oauthsocial.entity.User;
+import com.oauth.social.oauthsocial.model.User;
 import com.oauth.social.oauthsocial.payload.ApiResponse;
 import com.oauth.social.oauthsocial.payload.AuthResponse;
 import com.oauth.social.oauthsocial.payload.LoginRequest;
@@ -76,7 +76,7 @@ public class AuthController {
                 .buildAndExpand(result.getId()).toUri();
 
         return ResponseEntity.created(location)
-                .body(new ApiResponse(true, "User registered successfully@"));
+                .body(new ApiResponse(true, "User registered successfully!"));
     }
 
 }

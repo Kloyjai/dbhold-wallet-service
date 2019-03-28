@@ -2,7 +2,7 @@ package com.oauth.social.oauthsocial.security.oauth2;
 
 import com.oauth.social.oauthsocial.exception.OAuth2AuthenticationProcessingException;
 import com.oauth.social.oauthsocial.model.AuthProvider;
-import com.oauth.social.oauthsocial.entity.User;
+import com.oauth.social.oauthsocial.model.User;
 import com.oauth.social.oauthsocial.repository.UserRepository;
 import com.oauth.social.oauthsocial.security.UserPrincipal;
 import com.oauth.social.oauthsocial.security.oauth2.user.OAuth2UserInfo;
