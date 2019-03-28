@@ -37,7 +37,7 @@ public class User {
     @Email
     @Column(nullable = false)
     private String email;
-
+    
     private String imageUrl;
 
     @Column(nullable = false)
@@ -48,7 +48,8 @@ public class User {
 
     @NotNull
     @Enumerated(EnumType.STRING)
-    private AuthProvider provider;
+    private com.oauth.social.oauthsocial.model.AuthProvider provider;
 
     private String providerId;
+
 }
